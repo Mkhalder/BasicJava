@@ -23,12 +23,12 @@ public class Array {
 //            System.out.println(x);
 
             //for each loop
-        int[] num = {10,20,30,40,50,60,70,80,90,100};
-        int sum =0;
-        for(int x : num){
-            sum = sum + x;
-        }
-        System.out.println(sum);
+//        int[] num = {10,20,30,40,50,60,70,80,90,100};
+//        int sum =0;
+//        for(int x : num){
+//            sum = sum + x;
+//        }
+//        System.out.println(sum);
 
 
 //        Scanner input = new Scanner(System.in);
@@ -85,14 +85,14 @@ public class Array {
 //        System.out.println("Min value: " +min);
 
 
-//        Scanner input = new Scanner(System.in);
-//        System.out.println(" Enter Array Size");
-//        int size = input.nextInt();
-//        int[] intArray = new int[size];
-//        for (int i = 0; i < intArray.length; i++) {
-//            int value = input.nextInt();
-//            intArray[i] = value;
-//            System.out.println(i + " Value " + value);
+        Scanner input = new Scanner(System.in);
+        System.out.println(" Enter Array Size");
+        int size = input.nextInt();
+        int[] intArray = new int[size];
+        for (int i = 0; i < intArray.length; i++) {
+            int value = input.nextInt();
+            intArray[i] = value;
+            System.out.println(i + " Value " + value);
 
 //        Scanner input = new Scanner(System.in);
 //        int[] intArray = new int[2];
@@ -110,6 +110,7 @@ public class Array {
 //        for (int i = 0; i < intArray.length; i++) {
 //            intArray[i] = input.nextInt(); //or int value = input.nextInt(); // intArray[i] = value;
 //            System.out.println("MM");
+        }
     }
 }
 
